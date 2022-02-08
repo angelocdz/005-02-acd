@@ -85,11 +85,50 @@ git add .
 git commit -m 'Git initialize'
 git log --oneline
 
-git branch -M main
-git remote add origin git@github.com:angelocdz/005-02-acd.git
-git push -u origin main
+Input the git commands from github.
 
 web browser
   refresh repository
   https://github.com/angelocdz/005-02-acd
+```
+
+## Install the Shopify GitHub integration and connect your branch to your store
+
+```
+https://005-02-acd.myshopify.com/admin
+  online store, themes, add theme, connect from github
+    select, 005-02-acd, connect, click x icon
+      005-02-acd/main
+```
+
+## Test shopify github integration
+
+```
+vi config/settings_schema.json
+  "theme_name": "005-02-acd"
+
+git status
+git add .
+git commit -m 'Test shopify github integration & updated Theme Name to 005-02-acd'
+git push -u origin main
+
+web browser
+  Check github if push is successful.
+  https://005-02-acd.myshopify.com/admin
+    online store, themes
+      005-02-acd/main
+        customize
+          Click the 3 dots then it will display.
+            005-02-acd
+Successfully integrated github to our shopify store.
+```
+
+## Publish your theme
+
+```
+shopify
+  online store, themes
+    005-02-acd/main, actions, publish, publish
+
+Successfully published the 005-02-acd theme now it's on production or live.
 ```
