@@ -101,7 +101,11 @@ https://005-02-acd.myshopify.com/admin
       005-02-acd/main
 ```
 
+<<<<<<< HEAD
 ## Test shopify github integration
+=======
+## Test shopify githubt integration
+>>>>>>> aaf6d31ec911736f545b2aed8159229abc5be78a
 
 ```
 vi config/settings_schema.json
