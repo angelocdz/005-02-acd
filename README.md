@@ -45,7 +45,7 @@ web browser
     copy password under protection password
     logout
   https://005-02-acd.myshopify.com
-    password: input password from protection password
+    input shopify password & protection password if needed
 
 shopify login --store 005-02-acd.myshopify.com
   web browser
@@ -110,6 +110,7 @@ vi config/settings_schema.json
 git status
 git add .
 git commit -m 'Test shopify github integration & updated Theme Name to 005-02-acd'
+git log --oneline
 git push -u origin main
 
 web browser
